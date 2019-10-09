@@ -22,7 +22,7 @@ const components = glob.sync('src/js/components/*.js').reduce((components, file)
     const name = path.basename(file, '.js');
 
     components[name] = () =>
-        util.compile(`${__dirname}/componentWrapper.js`, `../../islamvakticom/Themes/hudhud/${file.substring(4, file.length - 3)}`, {
+        util.compile(`${__dirname}/componentWrapper.js`, `../../smf/Themes/hudhud/${file.substring(4, file.length - 3)}`, {
             name,
             minify,
             external: ['uikit', 'uikit-util'],
@@ -37,9 +37,9 @@ const components = glob.sync('src/js/components/*.js').reduce((components, file)
 
 const steps = {
 
-    core: () => util.compile('src/js/uikit-core.js', '../../islamvakticom/Themes/hudhud/js/uikit-core', {minify}),
-    uikit: () => util.compile('src/js/uikit.js', '../../islamvakticom/Themes/hudhud/js/uikit', {minify, bundled: true}),
-    icons: () => util.icons('{src/images,custom}/icons/*.svg').then(ICONS => util.compile('src/js/icons.js', '../../islamvakticom/Themes/hudhud/js/uikit-icons', {
+    core: () => util.compile('src/js/uikit-core.js', '../../smf/Themes/hudhud/js/uikit-core', {minify}),
+    uikit: () => util.compile('src/js/uikit.js', '../../smf/Themes/hudhud/js/uikit', {minify, bundled: true}),
+    icons: () => util.icons('{src/images,custom}/icons/*.svg').then(ICONS => util.compile('src/js/icons.js', '../../smf/Themes/hudhud/js/uikit-icons', {
         minify,
         name: 'icons',
         replaces: {ICONS}
