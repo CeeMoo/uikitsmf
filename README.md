@@ -5,6 +5,7 @@
 
 <p align="center">
   <b>Build in Less.js Code edit : </b>
+</p><p>
   <br>
 	{src: 'src/less/uikit.less', dist: `../../smf/Themes/hudhud/css/uikit/uikit-core${rtl ? '-rtl' : ''}.css`},
 	{src: 'src/less/smf.less', dist: `../../smf/Themes/hudhud/css/index${rtl ? '-rtl' : ''}.css`},
