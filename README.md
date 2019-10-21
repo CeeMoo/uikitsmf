@@ -24,3 +24,15 @@ node_modules/uikit/build/less.js
     {src: 'src/less/uikit.less', dist: `../../css/uikit/uikit-core${rtl ? '-rtl' : ''}.css`},
     {src: 'src/less/uikit.theme.less', dist: `../../css/uikit/uikit${rtl ? '-rtl' : ''}.css`},
     {src: 'src/less/smf.less', dist: `../../css/index${rtl ? '-rtl' : ''}.css`}
+
+
+---
+## Getting started
+
+You have the following options to get UIkit:
+
+- Download the [latest release](https://github.com/uikit/uikit/releases/latest) with pre-built CSS and JS.
+- Install with [npm](https://npmjs.com) to get all source files as they are available on Github: ```npm install uikit```
+- Install with [yarn](https://yarnpkg.com/) to get all source files as they are available on Github: ```yarn add uikit```
+- Directly load UIkit from [CDNJS](https://cdnjs.com): https://cdnjs.com/libraries/uikit
+- Clone the repo to get all source files including build scripts: `git clone git://github.com/uikit/uikit.git`
