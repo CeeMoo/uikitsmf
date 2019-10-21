@@ -27,7 +27,7 @@ node_modules/uikit/build/less.js
 
 
 ---
-## Getting started
+## Getting started -- Uikit
 
 You have the following options to get UIkit:
 
