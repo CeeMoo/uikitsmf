@@ -1,6 +1,8 @@
 # uikitsmf
 simplemachinesforum 2.1 getuikit tema entegre less
 
+    {your_url}/Themes/uikitsmf/node_modules/uikit/tests/
+
 node_modules/uikit/src/less/smf.less
 
 node_modules/uikit/build/build.js
